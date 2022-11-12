@@ -7,7 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { ContactUsPageRoutingModule } from './contact-us-routing.module';
 
 import { ContactUsPage } from './contact-us.page';
-import { SharedModule } from '../Shared/shared.module';
+import { SharedModule } from '../../Shared/shared.module';
 
 @NgModule({
   imports: [

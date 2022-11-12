@@ -21,7 +21,11 @@ export class AppComponent extends BaseClass {
   }
 
   openPage(page) {
+    if(page.title == "Sign Out"){
+      localStorage.clear();
+    }
     this._router.navigateByUrl(page.url)
+
   }
 
 
