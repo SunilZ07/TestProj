@@ -22,7 +22,7 @@ const routes: Routes = [
       },
       {
         path: 'search',
-        loadChildren: () => import('../home/home.module').then(m =>m.HomePageModule)
+        loadChildren: () => import('../search/search.module').then(m =>m.SearchPageModule)
       },
     ]
   },
